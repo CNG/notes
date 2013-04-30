@@ -1,5 +1,7 @@
 # Git and Github cheat sheet
 
+This is currently pretty basic. I'll try to add information in here as I need to look it up. So this is not an exhaustive [reference](http://gitref.org/basic/); it's just a way for me to stop looking the same things up over and over. ;-)
+
 ## Basic workflow
 
 ### Create repo
@@ -22,6 +24,15 @@ Or see which files need to be added and add individually:
 
     $ git status -s
     $ git add file1 file2
+
+### Delete
+
+    $ git rm README
+    $ git commit -m "Removed README**"
+
+### Move
+
+    $ git mv "Current name.md" "New name.md"
 
 ### Commit
     
@@ -79,19 +90,22 @@ Details at <https://help.github.com/articles/fork-a-repo>
 
 <https://help.github.com/articles/using-pull-requests>
 
-## Git resources
-
-<http://gitref.org/basic/>
 
 ## To Organize
 
-git checkout -b NAME
-short for git branch NAME; git checkout NAME;
+    git checkout -b NAME
 
-git checkout master
-git cehckout -b "hotfix"
-git commit -a -m 'msg'
-git checkout master
-git merge hotfix
-git branch -d hotfix
+short for
+
+    git branch NAME;
+    git checkout NAME;
+
+more
+
+    git checkout master; 
+    git cehckout -b "hotfix"; 
+    git commit -a -m 'msg'; 
+    git checkout master; 
+    git merge hotfix; 
+    git branch -d hotfix
 
