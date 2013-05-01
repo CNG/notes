@@ -51,6 +51,14 @@ Or if amending last commit:
 
     $ git push -f origin master 
 
+### List branches
+
+`git branch` show current branch?  
+`git branch -a` show all branches  
+`git branch -r` show all remote branches  
+`git remote` info about remote in general  
+`git ls-remote` list all references to branches and tags known  
+
 ### Revert Master branch to upstream
 
     $ git remote update
