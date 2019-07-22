@@ -7,7 +7,7 @@ http://bradenmacdonald.com/blog/2015/uwsgi-emperor-multiple-python
 
 `pip` manages Python packages from the Python Package Index. Python's older package manager, `easy_install`, is installed when you install `distribute` or `setuptools`.
 
-Install VirtualEnv
+Install \$VirtualEnv \$dgdfg
 
     #sudo easy_install pip
     #sudo pip install virtualenv
